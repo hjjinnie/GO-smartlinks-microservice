@@ -1,0 +1,19 @@
+basePath: /
+consumes:
+- application/json
+info:
+  description: Documentation for Product API
+  title: of Product API
+  version: 1.0.0
+paths:
+  /api/narrativ/getShoplink:
+    post:
+      description: returns a unique shopLink
+      operationId: newShopLink
+      tags:
+      - shopLink
+produces:
+- application/json
+schemes:
+- http
+swagger: "2.0"
